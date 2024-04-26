@@ -32,7 +32,7 @@ const Display = ({ input, output }) => (
 );
 
 const Key = ({keyData: {id, value}, handleInput}) => (
-    <button id={id} className="btn btn-info" onClick={() => handleInput(value)}>
+    <button id={id} className="btn" onClick={() => handleInput(value)}>
         {value}
     </button>
 );
@@ -172,10 +172,13 @@ const App = () => {
 
     return (
     <div className="container">
+        <h4>React Javascript Calculator</h4>
         <div className="calculator">
         <Display input={input} output={output}/>
         <Keyboard handleInput={handleInput}/>
         </div>
+        <p>Made by @fdezar</p>
+        <a href="https://github.com/fdezar/react-javascript-calculator">https://github.com/fdezar/react-javascript-calculator</a>
     </div>
     );
 }
