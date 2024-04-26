@@ -172,7 +172,7 @@ const App = () => {
 
     return (
     <div className="container">
-        <h4>React Javascript Calculator</h4>
+        <h4>React JavaScript Calculator</h4>
         <div className="calculator">
         <Display input={input} output={output}/>
         <Keyboard handleInput={handleInput}/>
