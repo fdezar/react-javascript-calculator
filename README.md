@@ -1,6 +1,8 @@
 # React JavaScript Calculator
 
-This is a calculator web application built using React.js, HTML and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a web calculator app built using React.js, HTML and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+This project constitutes one of the five mandatory projects for my freeCodeCamp Front End Development Libraries Certification.
 
 ## Features ✨
 
